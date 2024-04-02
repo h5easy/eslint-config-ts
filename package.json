@@ -1,0 +1,27 @@
+{
+  "name": "@h5easy/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "eslint规则,针对脚手架、工具库等编写",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": "https://github.com/h5easy/eslint-config-ts",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "prettier": "2.4.1",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-import": "2.25.4"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "ISC"
+}
